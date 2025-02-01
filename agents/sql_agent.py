@@ -21,7 +21,7 @@ class SQLAgent:
         user_context = get_db_context("user")
         table_infos = {
             "company": "This table give information about a company.\n"
-                        "It has column: name.\n"
+                        "It has column: id,name.\n"
                         "\n"
                         "Some example rows:\n"
                         f"{company_context}",
